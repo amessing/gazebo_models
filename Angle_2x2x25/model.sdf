@@ -5,21 +5,21 @@
 		<static>true</static>
 		<link name="body">
 			<inertial>
-				<pose>-0.000035 0.037971 0.037952 0 0 0</pose>
+				<pose>0.000000 0.000380 0.000380 0 0 0</pose>
 				<mass>0.114</mass>
 				<inertia>
-					<ixx>0.000000003788378</ixx>
-					<ixy>-3.2E-15</ixy>
-					<ixz>2.9E-15</ixz>
-					<iyy>0.00000024604043</iyy>
-					<iyz>0.000000001106014</iyz>
-					<izz>0.00000024604043</izz>
+					<ixx>0.00000000189</ixx>
+					<ixy>0</ixy>
+					<ixz>0</ixz>
+					<iyy>0.00000012302</iyy>
+					<iyz>0.00000000055</iyz>
+					<izz>0.00000012302</izz>
 				</inertia>
 			</inertial>
 			<collision name="collision">
 				<geometry>
 					<box>
-						<size>0.317496 0.0254 0.0254</size>
+						<size>0.317496 0.025400 0.025400</size>
 					</box>
 				</geometry>
 			</collision>

@@ -7,18 +7,18 @@
 			<inertial>
 				<mass>0.353</mass>
 				<inertia>
-					<ixx>1</ixx>
+					<ixx>0.00000000265</ixx>
 					<ixy>0</ixy>
 					<ixz>0</ixz>
-					<iyy>1</iyy>
-					<iyz>0</iyz>
-					<izz>1"</izz>
+					<iyy>0.00000033522</iyy>
+					<iyz>0.00000000077</iyz>
+					<izz>0.00000033522</izz>
 				</inertia>
 			</inertial>
 			<collision name="collision">
 				<geometry>
 					<box>
-						<size>0.1778 0.0381 0.0381</size>
+						<size>0.444494 0.025400 0.025400</size>
 					</box>
 				</geometry>
 			</collision>
