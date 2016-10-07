@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<sdf version="1.4">
+	<model name="model_name">
+		<pose>0 0 0 0 0 0</pose>
+		<static>true</static>
+		<link name="body">
+			<!--
+			<inertial>
+				<mass>0</mass>
+				<inertia>
+					<ixx>1</ixx>
+					<ixy>0</ixy>
+					<ixz>0</ixz>
+					<iyy>1</iyy>
+					<iyz>0</iyz>
+					<izz>1"</izz>
+				</inertia>
+			</inertial>
+			-->
+			<collision name="collision">
+				<pose>0 0 0 0 0 0</pose>
+				<geometry>
+					<cylinder>
+						<radius>0.034925</radius>
+						<length>0.0254</length>
+					</cylinder>
+				</geometry>
+			</collision>
+			<visual name="visual">
+				<geometry>
+					<mesh><uri>model://Traction_Wheel_2_75/Traction_Wheel_2_75.dae</uri></mesh>
+				</geometry>
+			</visual>
+		</link>
+	</model>
+</sdf>
